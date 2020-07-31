@@ -1,0 +1,8 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: storeapi-ingress
+spec:
+  backend:
+    serviceName: store-api
+    servicePort: 8000

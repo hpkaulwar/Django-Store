@@ -1,0 +1,30 @@
+# Headless service for stable DNS entries of MySQL StatefulSet.
+#Type of service is ClusterIP
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql
+  labels:
+    app: mysql
+spec:
+  ports:
+  - name: mysql
+    port: 3306
+  clusterIP: None
+  selector:
+    app: mysql
+---
+# This is mysql service for read requests.
+# mysql-0.mysql is the master's Stable DNS address which should be contacted for write requests.
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql-read
+  labels:
+    app: mysql
+spec:
+  ports:
+  - name: mysql
+    port: 3306
+  selector:
+    app: mysql

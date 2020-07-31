@@ -1,0 +1,42 @@
+Adding shard node URL: jdbc:mysql://35.188.80.11:3306/database_2
+Adding shard node URL: jdbc:mysql://35.188.80.11:3306/database_2
+Using shards: 1, batchSize:1000, fetchSize: 1000
+Using shards: 1, batchSize:1000, fetchSize: 1000
+[OVERALL], RunTime(ms), 368138
+[OVERALL], Throughput(ops/sec), 2.7163726645986017
+[TOTAL_GCS_G1_Young_Generation], Count, 3
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 41
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.011137127924854266
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 3
+[TOTAL_GC_TIME], Time(ms), 41
+[TOTAL_GC_TIME_%], Time(%), 0.011137127924854266
+[READ], Operations, 485
+[READ], AverageLatency(us), 402521.73195876286
+[READ], MinLatency(us), 297216
+[READ], MaxLatency(us), 2572287
+[READ], 95thPercentileLatency(us), 513023
+[READ], 99thPercentileLatency(us), 680959
+[READ], Return=OK, 485
+[UPDATE-FAILED], Operations, 4
+[UPDATE-FAILED], AverageLatency(us), 4.0012288E7
+[UPDATE-FAILED], MinLatency(us), 5758976
+[UPDATE-FAILED], MaxLatency(us), 51511295
+[UPDATE-FAILED], 95thPercentileLatency(us), 51511295
+[UPDATE-FAILED], 99thPercentileLatency(us), 51511295
+[CLEANUP], Operations, 2
+[CLEANUP], AverageLatency(us), 652544.0
+[CLEANUP], MinLatency(us), 640512
+[CLEANUP], MaxLatency(us), 664575
+[CLEANUP], 95thPercentileLatency(us), 664575
+[CLEANUP], 99thPercentileLatency(us), 664575
+[UPDATE], Operations, 511
+[UPDATE], AverageLatency(us), 401503.9373776908
+[UPDATE], MinLatency(us), 301056
+[UPDATE], MaxLatency(us), 1814527
+[UPDATE], 95thPercentileLatency(us), 513023
+[UPDATE], 99thPercentileLatency(us), 643583
+[UPDATE], Return=OK, 511
+[UPDATE], Return=ERROR, 4

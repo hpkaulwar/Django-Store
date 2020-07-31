@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql
+  labels:
+    app: mysql
+data:
+  master.cnf: |
+    # Configuration for master pod in the topology
+    [mysqld]
+    log-bin
+    # log files are created for any write on master and slave update their persistent volume with this
+  slave.cnf: |
+    # Configuration for slave pods in the topology
+    [mysqld]
+    super-read-only
+
+
+

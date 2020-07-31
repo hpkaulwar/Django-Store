@@ -1,0 +1,54 @@
+Adding shard node URL: jdbc:mysql://35.188.80.11:3306/database_2
+Adding shard node URL: jdbc:mysql://35.188.80.11:3306/database_2
+Adding shard node URL: jdbc:mysql://35.188.80.11:3306/database_2
+Adding shard node URL: jdbc:mysql://35.188.80.11:3306/database_2
+Adding shard node URL: jdbc:mysql://35.188.80.11:3306/database_2
+Adding shard node URL: jdbc:mysql://35.188.80.11:3306/database_2
+Adding shard node URL: jdbc:mysql://35.188.80.11:3306/database_2
+Adding shard node URL: jdbc:mysql://35.188.80.11:3306/database_2
+Using shards: 1, batchSize:1000, fetchSize: 1000
+Using shards: 1, batchSize:1000, fetchSize: 1000
+Using shards: 1, batchSize:1000, fetchSize: 1000
+Using shards: 1, batchSize:1000, fetchSize: 1000
+Using shards: 1, batchSize:1000, fetchSize: 1000
+Using shards: 1, batchSize:1000, fetchSize: 1000
+Using shards: 1, batchSize:1000, fetchSize: 1000
+Using shards: 1, batchSize:1000, fetchSize: 1000
+[OVERALL], RunTime(ms), 225548
+[OVERALL], Throughput(ops/sec), 4.4336460531682835
+[TOTAL_GCS_G1_Young_Generation], Count, 4
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 56
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.024828417897742386
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 4
+[TOTAL_GC_TIME], Time(ms), 56
+[TOTAL_GC_TIME_%], Time(%), 0.024828417897742386
+[READ], Operations, 508
+[READ], AverageLatency(us), 489542.55118110235
+[READ], MinLatency(us), 288256
+[READ], MaxLatency(us), 821759
+[READ], 95thPercentileLatency(us), 741887
+[READ], 99thPercentileLatency(us), 820223
+[READ], Return=OK, 508
+[UPDATE-FAILED], Operations, 21
+[UPDATE-FAILED], AverageLatency(us), 1.686086704761905E7
+[UPDATE-FAILED], MinLatency(us), 325888
+[UPDATE-FAILED], MaxLatency(us), 51544063
+[UPDATE-FAILED], 95thPercentileLatency(us), 51314687
+[UPDATE-FAILED], 99thPercentileLatency(us), 51544063
+[CLEANUP], Operations, 8
+[CLEANUP], AverageLatency(us), 1015232.0
+[CLEANUP], MinLatency(us), 700416
+[CLEANUP], MaxLatency(us), 1435647
+[CLEANUP], 95thPercentileLatency(us), 1435647
+[CLEANUP], 99thPercentileLatency(us), 1435647
+[UPDATE], Operations, 471
+[UPDATE], AverageLatency(us), 1787778.1740976647
+[UPDATE], MinLatency(us), 301056
+[UPDATE], MaxLatency(us), 42237951
+[UPDATE], 95thPercentileLatency(us), 10854399
+[UPDATE], 99thPercentileLatency(us), 31653887
+[UPDATE], Return=OK, 471
+[UPDATE], Return=ERROR, 21

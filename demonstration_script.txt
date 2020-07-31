@@ -1,0 +1,49 @@
+
+
+
+CREATE TABLE usertable (
+	YCSB_KEY VARCHAR(255) PRIMARY KEY,
+	FIELD0 TEXT, FIELD1 TEXT,
+	FIELD2 TEXT, FIELD3 TEXT,
+	FIELD4 TEXT, FIELD5 TEXT,
+	FIELD6 TEXT, FIELD7 TEXT,
+	FIELD8 TEXT, FIELD9 TEXT
+);
+
+
+
+./bin/ycsb load jdbc -P workloads/workloada -threads 5 -p db.driver=com.mysql.jdbc.Driver -p db.url=jdbc:mysql://35.188.80.11:3306/database_7 -p db.user=root -s -p db.batchsize=1000 -p jdbc.fetchsize=1000 -p jdbc.autocommit=false -p jdbc.batchsize=1000
+
+./bin/ycsb run jdbc -P workloads/workloada -threads 5 -p db.driver=com.mysql.jdbc.Driver -p db.url=jdbc:mysql://35.188.80.11:3306/database_7 -p db.user=root -s -p db.batchsize=1000 -p jdbc.fetchsize=1000 -p jdbc.autocommit=false -p jdbc.batchsize=1000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mysql -u root -h35.224.242.251
+kubectl autoscale statefulset mysql --cpu-percent=60 --min=1 --max=10
+
+

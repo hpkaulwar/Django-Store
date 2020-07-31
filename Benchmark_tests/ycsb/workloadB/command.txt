@@ -1,0 +1,2 @@
+./bin/ycsb run jdbc -P workloads/workloadb -threads 2 -p db.driver=com.mysql.jdbc.Driver -p db.url=jdbc:mysql://35.188.80.11:3306/database_2 -p db.user=root  -s  -p db.batchsize=1000 -p jdbc.fetchsize=1000 -p jdbc.autocommit=false -p jdbc.batchsize=1000 > thread_2.txt
+

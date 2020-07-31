@@ -1,0 +1,40 @@
+Adding shard node URL: jdbc:mysql://35.239.24.62:3306/database_2
+Adding shard node URL: jdbc:mysql://35.239.24.62:3306/database_2
+Adding shard node URL: jdbc:mysql://35.239.24.62:3306/database_2
+Adding shard node URL: jdbc:mysql://35.239.24.62:3306/database_2
+Adding shard node URL: jdbc:mysql://35.239.24.62:3306/database_2
+Adding shard node URL: jdbc:mysql://35.239.24.62:3306/database_2
+Adding shard node URL: jdbc:mysql://35.239.24.62:3306/database_2
+Adding shard node URL: jdbc:mysql://35.239.24.62:3306/database_2
+Using shards: 1, batchSize:1000, fetchSize: 1000
+Using shards: 1, batchSize:1000, fetchSize: 1000
+Using shards: 1, batchSize:1000, fetchSize: 1000
+Using shards: 1, batchSize:1000, fetchSize: 1000
+Using shards: 1, batchSize:1000, fetchSize: 1000
+Using shards: 1, batchSize:1000, fetchSize: 1000
+Using shards: 1, batchSize:1000, fetchSize: 1000
+Using shards: 1, batchSize:1000, fetchSize: 1000
+[OVERALL], RunTime(ms), 58562
+[OVERALL], Throughput(ops/sec), 17.075919538267136
+[TOTAL_GCS_G1_Young_Generation], Count, 3
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 16
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.027321471261227418
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 3
+[TOTAL_GC_TIME], Time(ms), 16
+[TOTAL_GC_TIME_%], Time(%), 0.027321471261227418
+[READ], Operations, 1000
+[READ], AverageLatency(us), 411984.64
+[READ], MinLatency(us), 294144
+[READ], MaxLatency(us), 949759
+[READ], 95thPercentileLatency(us), 639487
+[READ], 99thPercentileLatency(us), 876031
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 8
+[CLEANUP], AverageLatency(us), 653376.0
+[CLEANUP], MinLatency(us), 609792
+[CLEANUP], MaxLatency(us), 686591
+[CLEANUP], 95thPercentileLatency(us), 686591
+[CLEANUP], 99thPercentileLatency(us), 686591
