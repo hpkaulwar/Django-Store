@@ -19,5 +19,5 @@ requests==2.22.0
 simplejson==3.16.0
 Pillow==7.1.2
 uritemplate==3.0.0
-urllib3==1.25.2
+urllib3==1.26.5
 mysqlclient==1.4.6
