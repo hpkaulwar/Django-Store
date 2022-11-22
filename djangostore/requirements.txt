@@ -17,7 +17,7 @@ psycopg2-binary==2.8.2
 pytz==2019.1
 requests==2.22.0
 simplejson==3.16.0
-Pillow==7.1.2
+Pillow==9.3.0
 uritemplate==3.0.0
 urllib3==1.25.2
 mysqlclient==1.4.6
